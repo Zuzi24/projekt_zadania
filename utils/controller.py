@@ -16,3 +16,12 @@ def remove_station(stations_data : list ) -> None:
     for station in stations_data:
         if station["name"] == station_name:
             stations_data.remove(station)
+
+
+
+def update_station(stations_data : list ) -> None:
+    station_name: str = input("podaj nazwe stacji badawczej do aktualizacji")
+    for station in stations_data:
+        if station["name"] == station_name:
+            station["name"] = input("podaj nową nazwe stacji badawczej")
+            station["location"] = input("podaj nową lokalizacje")

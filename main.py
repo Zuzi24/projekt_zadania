@@ -1,5 +1,5 @@
 from utils.model import research_stations
-from utils.controller import get_stations_info, add_station, remove_station
+from utils.controller import get_stations_info, add_station, remove_station, update_station
 
 
 def main():
@@ -8,6 +8,7 @@ def main():
     print("1 - wyświetl dane stacji badawczych")
     print("2 - dodaj stacje badawczą")
     print("3 - usuń stacje badawczą")
+    print("4 - zaktualizuj dane stacji badawczej")
     print("===========================")
     while True:
         choice: str = input("wybierz opcje menu ")
@@ -15,6 +16,7 @@ def main():
         if choice == "1": get_stations_info(research_stations)
         if choice == "2": add_station(research_stations)
         if choice == "3": remove_station(research_stations)
+        if choice == "4": update_station(research_stations)
 
 
 if __name__ == "__main__":
