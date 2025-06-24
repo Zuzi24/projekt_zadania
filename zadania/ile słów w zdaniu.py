@@ -1,3 +1,5 @@
+#ile słów w zdaniu
+
 def liczba_słów():
     return len(zdanie.split())              #Funkcja split() dzieli tekst (czyli zdanie)
                                             # na listę wyrazów, len liczy słowa

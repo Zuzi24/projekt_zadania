@@ -1,3 +1,5 @@
+#średnia algebraiczna
+
 def srednia():
 
     liczby = list(range(0,10))                      #liczby z listy liczb od 1 do 10

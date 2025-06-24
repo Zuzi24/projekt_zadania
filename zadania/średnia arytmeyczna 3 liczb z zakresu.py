@@ -1,3 +1,5 @@
+#średnia algebraiczna 3 liczby z zakresu
+
 def srednia_z_zakresu():
 
  input("podaj trzy liczby podzielone spacją: ")

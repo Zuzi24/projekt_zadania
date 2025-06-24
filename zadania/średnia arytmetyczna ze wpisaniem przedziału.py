@@ -1,3 +1,5 @@
+#średnia algebraiczna ze wpisaniem przedziału
+
 def srednia():
     y = int (input("liczba z przedziału od: "))         #int=że dane to będa liczby , input=podaj
     x = int(input("do: "))                              #x i y definiują podane liczby przez użytkownika

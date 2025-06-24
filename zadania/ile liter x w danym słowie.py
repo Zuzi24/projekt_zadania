@@ -1,3 +1,4 @@
+#ile liter x w danym słowie
 
 word = input("podaj słowo: ")           #podanie słowa
 x = input("podaj litere: ")             #określenie litery

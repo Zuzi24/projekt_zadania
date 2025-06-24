@@ -1,3 +1,5 @@
+#ile liter w słowie
+
 def calculate(slowo):          #definiujemy dla zmiennej
     return len(slowo)           #oddaje liczbe liter
 
